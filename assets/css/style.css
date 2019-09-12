@@ -1,0 +1,330 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* BEGINNING CSS CODE */
+
+body {
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* CODE FOR HEADER BASED ON https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_dividers */
+
+.fullspanheader {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #666666;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+li {
+    float: left;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 26px 16px; 
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #4aaaa5;
+  }
+
+/* END CODE FOR HEADER */
+
+
+
+h1 {
+  font-family: 'Khand', sans-serif;
+    text-transform: lowercase;
+    background-color: #4aaaa5;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    padding: 20px;
+    font-size: 28px;
+}
+
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.navbar {
+    width: 960px;
+}
+
+.links {
+    width: 760px;
+    float: right;
+}
+
+.about {
+    width: 100%;
+}
+
+#headshot {
+    float: left;
+    margin: 10px;
+}
+
+p {
+  font-family: 'Old Standard TT', serif;
+}
+
+/* CODE FOR FOOTER BASED ON https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    border-top-style: solid;
+    border-top-width: 7px;
+    border-top-color: #4aaaa5;
+}
+
+/* PORTFOLIO CSS */
+
+.thumbnails {
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.card {
+  width: 40%;
+  float: left; 
+}
+
+.thumbnaillabel {
+  padding: 10px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 161px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#PortfolioHead {
+  border-bottom-style: solid;
+  border-bottom-color: #666666;
+  border-bottom-width: 1px;
+  margin: 20px;
+}
+
+.thumbnailtable {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 
+}
+
+/* CONTACT CSS */
+
+.button {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.message {
+  height: 300px;
+  width: 300px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 980px) {
+
+  body {
+    
+  }
+
+  .thumbnailtable {
+    margin-left: 20px;
+  }
+
+  form {
+    margin-left: 20px;
+  }
+
+  .button {
+    margin-left: 20px;
+  }
+
+}
+
+/* TABLET MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+
+  body {
+  
+  }
+
+  .fullspanheader {
+    width: 768px;
+  }
+
+  .about {
+    width: 768px;
+    margin: 10px;
+  }
+
+  .thumbnailtable {
+    margin-left: 20px;
+  }
+
+  form {
+    margin-left: 20px;
+  }
+
+  .button {
+    margin-left: 20px;
+  }
+
+}
+
+/* LANDSCAPE PHONE MEDIA QUERY */
+
+@media screen and (max-width: 640px) {
+
+  body {
+    
+  }
+
+  .fullspanheader {
+    position: static;
+    width: 640px;
+  }
+
+  .name {
+    width: 640px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+/* CSS code to center links: https://codepen.io/alexandredees/pen/ojaFr */
+
+  .float_center {
+    float: right;
+  
+    position: relative;
+    left: -50%;
+    text-align: left;
+  }
+
+  .float_center > .child {
+    position: relative;
+    left: 50%;
+  }
+
+/* End code to center links */
+
+  .about {
+    width: 640px;
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+
+  #PortfolioHead {
+    width: 620px;
+  }
+
+  .thumbnailtable {
+    margin-left: 20px;
+  }
+
+  form {
+    margin-left: 20px;
+  }
+
+  .button {
+    margin-left: 20px;
+  }
+
+}
