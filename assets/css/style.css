@@ -148,13 +148,25 @@ p {
 
 .card-title {
   font-family: 'Muli', sans-serif;
-  font-style: bold;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.card-text {
+  font-family: 'Muli', sans-serif;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  margin-right: 10px;
 }
 
 /* CODE FOR FOOTER BASED ON https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer */
-
+/*
 .footer {
-    position: fixed;
+    position: bottom;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -167,6 +179,7 @@ p {
     border-top-width: 7px;
     border-top-color: #4aaaa5;
 }
+*/
 
 /* PORTFOLIO CSS */
 
@@ -195,6 +208,7 @@ p {
   /*border-bottom-color: #666666;*/
   /*border-bottom-width: 1px;*/
   margin: 20px;
+  text-align: center;
 }
 
 .thumbnailtable {
