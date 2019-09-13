@@ -91,6 +91,10 @@ li {
     background-color: #4aaaa5;
   }
 
+  .resume {
+    vertical-align: bottom !important; 
+  }
+
 /* END CODE FOR HEADER */
 
 
