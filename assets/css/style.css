@@ -129,6 +129,31 @@ body {
   margin: 10px;
 }
 
+.project-card {
+  float: left;
+  margin: 15px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  width: 380px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.project-card-title {
+  font-family: Oswald;
+  font-size: 25px;
+  color: black;
+  margin: 5px;
+}
+
+.project-card-text {
+  font-family: Muli;
+  font-size: 16px;
+  color: black;
+  margin: 5px;
+}
+
 /* CODE FOR HEADER BASED ON https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_dividers */
 
 /*
